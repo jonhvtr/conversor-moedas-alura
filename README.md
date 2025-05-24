@@ -51,13 +51,13 @@ cd conversor-moedas-alura
 
 2. **Adicione sua chave da API:**
 
-1- Crie o arquivo .env na raiz do projeto:
+1- Crie o arquivo .env na src/main/resources/
 
 ````.dotenv
     API_KEY="sua_api_key"
 ````
 
-🔐 Importante: Nunca compartilhe sua chave. Adicione .env ao seu .gitignore.
+🔐 Importante: Nunca compartilhe sua chave. Adicione src/main/resources/.env ao seu .gitignore.
 
 chave válida obtida em [https://www.exchangerate-api.com/](https://www.exchangerate-api.com/).
 
